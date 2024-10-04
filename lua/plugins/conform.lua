@@ -23,6 +23,7 @@ return {
       python = { "isort", "black" },
       javascript = { "prettierd", "prettier", stop_after_first = true },
       php = { "php-cs-fixer" },
+      html = { "prettier" },
     },
     -- Set default options
     default_format_opts = {
